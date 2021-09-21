@@ -5,7 +5,7 @@
             <h3>Lista total de ventas</h3>
             <ul class="text-left">
                 <li v-for="juego in $store.state.ventas" :key="juego.codigo" :style="{ backgroundColor: juego.color }" >
-                {{ juego.codigo }} | {{ juego.nombre }} | {{ juego.stock }} | {{ juego.precio }}
+                {{ juego.codigo }} | {{ juego.nombre }} | {{ juego.precio }}
                 </li>
             </ul>
         </section>
