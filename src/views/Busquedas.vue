@@ -1,5 +1,6 @@
 <template>
     <div class="busqueda">
+    <h2>Búsquedas</h2>
         <section>
             <h3>Filtro</h3>
             <input type="text" placeholder="Nombre del juego" :value="$store.state.busqueda" @input="$store.dispatch('setBusqueda', $event.target.value)">
